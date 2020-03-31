@@ -1,0 +1,3 @@
+- name: Setup Ionic
+  uses: coturiv/setup-ionic@v1.0.0
+
