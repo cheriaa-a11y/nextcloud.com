@@ -1,0 +1,3 @@
+
+- name: Check Ansible Ubuntu latest
+  uses: roles-ansible/check-ansible-ubuntu-latest-action@v0.4
