@@ -1,3 +1,9 @@
 - name: Setup Ionic
   uses: coturiv/setup-ionic@v1.0.0
 
+  with:
+    cordova-latest version
+
+- name: Build
+  run: |
+    ionic cordova build android --prod
